@@ -188,7 +188,7 @@ header.masthead {
 
 #portfolio .portfolio-item {
   right: 0;
-  margin: 0 0 15px; }
+  margin: 0 0 0; }
   #portfolio .portfolio-item .portfolio-link {
     position: relative;
     display: block;
@@ -226,7 +226,7 @@ header.masthead {
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
-    margin: 0 0 30px; } }
+    margin: 0 0 0; } }
 
 .portfolio-modal .modal-dialog {
   max-width: 100%;
