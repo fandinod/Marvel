@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+/* Trying to make some code that will customize the markers on the map, */
+
+<head>
+  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.js"></script>  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.css" rel="stylesheet" />  <style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+  </style>
+</head>
+
+<body>
+  <div id="map"></div>
+
+  <script>
+mapboxgl.accessToken = "pk.eyJ1IjoiMHJlZGZlYXRoZXIiLCJhIjoiY2puZzVlYTFmNDZ6bjN3cW8xMHAwNG53NSJ9.hQc74nd7nsRsbm_2ZWB8sw";
+
+/* Map: This represents the map on the page. */
+var map = new mapboxgl.Map({
+  container: "map",
+  style: "mapbox://styles/mapbox/light-v9",
+  zoom:10.0,
+  center: [-73.94460,40.74148]
+});
+
+map.on("load", function () {
+  /* Image: An image is loaded and added to the map. */
+  map.loadImage("https://i.imgur.com/MK4NUzI.png", function(error, image) {
+      if (error) throw error;
+      map.addImage("custom-marker", image);
+      /* Style layer: A style layer ties together the source and image and specifies how they are displayed on the map. */
+      map.addLayer({
+        id: "markers",
+        type: "symbol",
+        /* Source: A data source specifies the geographic coordinate where the image marker gets placed. */
+        source: {
+          type: "geojson",
+          data: {
+            type: "FeatureCollection",
+            features:[{"type":"Feature","geometry":{"type":"Point","coordinates":[-74.73694472555924,40.31596460151786]}}]}
+        },
+        layout: {
+          "icon-image": "custom-marker",
+        }
+      });
+    });
+});
+
+/* Custom marker stuff that goes after the map loads but before the end of the script */
+
+map.on('click', function(e) {
+  var features = map.queryRenderedFeatures(e.point, {
+    layers: ['marvel-map-data'] // replace this with the name of the layer
+  });
+
+  if (!features.length) {
+    return;
+  }
+
+  var feature = features[0];
+
+  var popup = new mapboxgl.Popup({ offset: [0, -15] })
+    .setLngLat(feature.geometry.coordinates)
+    .setHTML('<h3>' + feature.properties.title + '</h3><p>' + feature.properties.description + '</p>')
+    .setLngLat(feature.geometry.coordinates)
+    .addTo(map);
+});
+
+  </script>
+
+</body>
+</html>

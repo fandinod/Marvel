@@ -1,0 +1,359 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Iron Man and Spider-man verses Black Dwarf",
+        "description": "Iron and Spider-man take on Black Dwarf who is attempting to take the Time Stone from Dr. Strange"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.997486,
+          40.73084
+        ],
+        "type": "Point"
+      },
+      "id": "24d8618b2fbfe271386e4265142af291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Dr. Strange's Sanctorum",
+        "description": "Dr. Strange's base of operations"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.000622,
+          40.729054
+        ],
+        "type": "Point"
+      },
+      "id": "285927e2c39a35a1e4b8d2dcfaf48ca1"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          -73.983568,
+          40.766584
+        ],
+        "type": "Point"
+      },
+      "id": "387a557b336e9f6887c66ab7a6f6cb33"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Spider-man stops  a weapons deal",
+        "description": "Spider-man tries to stop a weapons deal in Spiper-man Homecoming, but needs the help of Iron Man when things go awry"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.013004,
+          40.700938
+        ],
+        "type": "Point"
+      },
+      "id": "4e5cbe5d449a2bd5d5c3995c4f7464d8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Oscorp Tower",
+        "description": "Where Oscorp Tower would be located in the Marvel movies"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.983543,
+          40.766528
+        ],
+        "type": "Point"
+      },
+      "id": "7ea4fde2df5b4cb83b98c1b893941ed7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Thor arrests Loki",
+        "description": "Thor takes Loki back to Asgard in the first Avengers movie"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.970738,
+          40.774064
+        ],
+        "type": "Point"
+      },
+      "id": "a72dfff33f5d793c420b0c2dc65f12f3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_name": "175 5th Avenue, Manhattan, New York, New York 10010, United States",
+        "title": "Daily Bugle",
+        "description": "Offices where Peter Parker sends most of his pictures of Spider-Man in the Sony adaptation of the Spider-man movies"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.989688,
+          40.741119
+        ],
+        "type": "Point"
+      },
+      "id": "address.2781169406183002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_name": "108 Avenue B, Manhattan, New York, New York 10009, United States",
+        "title": "Luke Cage's bar",
+        "description": "Shooting location for Luke Cage's bar in the Netflix series"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.981391,
+          40.725013
+        ],
+        "type": "Point"
+      },
+      "id": "address.281963175276522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_name": "1585 Broadway, Manhattan, New York, New York 10036, United States",
+        "title": "S.H.I.E.L.D Headquarters",
+        "description": "After being frozen for 70 years, Captain America wakes up in modern times and runs to Time Square because people don't know baseball"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.985334,
+          40.760214
+        ],
+        "type": "Point"
+      },
+      "id": "address.5647991564015342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_name": "999 Jamaica Avenue, Brooklyn, New York, New York 11208, United States",
+        "description": "Shooting location of Spider-man's high school in the latest movies",
+        "title": "Spider-man's school"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.868909,
+          40.692633
+        ],
+        "type": "Point"
+      },
+      "id": "address.6695891450824104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_name": "234 West 42nd Street, Manhattan, New York, New York 10036, United States",
+        "title": "Gem Theater",
+        "description": "Apartment of Luke Cage and the office of the Might Avengers"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.988647,
+          40.756581
+        ],
+        "type": "Point"
+      },
+      "id": "address.6899702647926896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_name": "485 West 48th Street, Manhattan, New York, New York 10020, United States",
+        "title": "Alias Investigations",
+        "description": "Office and apartment of Jessica Jones"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.980076,
+          40.758113
+        ],
+        "type": "Point"
+      },
+      "id": "address.8122271359476764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Stark Tower",
+        "description": "Daily Bugle"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.986063,
+          40.75602
+        ],
+        "type": "Point"
+      },
+      "id": "b557eb61bfbdb512e67c51af1650760c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Captain America Statue",
+        "description": "Statue located in the home town of Captain America"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.004464,
+          40.659334
+        ],
+        "type": "Point"
+      },
+      "id": "c8304e7b007bc79051c195a090b92c68"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Baxter Building",
+        "description": "Location of the headquarters for the Fantastic Four"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.979239,
+          40.752833
+        ],
+        "type": "Point"
+      },
+      "id": "c98e10b74644798acc1e48f1feb5bff9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Luke Cage's Apartment",
+        "description": "The apartment of Luke Cage in the Netflix series"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.939186,
+          40.843257
+        ],
+        "type": "Point"
+      },
+      "id": "d23cd03a1f05e39d2493c48701a59be4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Battle of New York",
+        "description": "Final battle in the war against Loki and the Chitauri in The Avengers"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.977463,
+          40.752389
+        ],
+        "type": "Point"
+      },
+      "id": "d9e4b9ba72a719d39407364fcae765e0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Daredevil's neighborhood",
+        "description": "The area that Daredevil lives in"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.992615,
+          40.76301
+        ],
+        "type": "Point"
+      },
+      "id": "ed40d260c27b7ab2c9bffe48a933069c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wikidata": "Q18426",
+        "place_name": "Bronx, 10462, New York, Bronx County, New York, United States",
+        "title": "Bullseye hometown",
+        "description": "Area that Daredevil villian, Bullseye, is from"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.8662,
+          40.8501
+        ],
+        "type": "Point"
+      },
+      "id": "locality.12228103320835940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_name": "Bedford Stuyvesant, Brooklyn, New York, New York 11216, United States",
+        "title": "Clint Barton's apartment building",
+        "description": "Where Hawkeye lives in the comics in order to get away from the Avengers for a bit"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.9412,
+          40.6834
+        ],
+        "type": "Point"
+      },
+      "id": "neighborhood.2100073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_name": "Coney Island, Brooklyn, New York, New York 11224, United States",
+        "title": "Spider-man verses Adrian Toomes",
+        "description": "Spider man has his final battle with the vulture in Spiderman Homecoming"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.9851,
+          40.5758
+        ],
+        "type": "Point"
+      },
+      "id": "neighborhood.2102288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_name": "Forest Hills, Queens, Forest Hills, New York 11375, United States",
+        "description": "Hometown",
+        "title": "Spider-man's Hometown"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.8501,
+          40.7162
+        ],
+        "type": "Point"
+      },
+      "id": "neighborhood.2102767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_name": "Flushing Meadows Corona Park, Queens, Flushing, New York 11368, United States",
+        "title": "Stark Expo",
+        "description": "Stark Expo and New York Expo in Iron Man 2 and in Captiain America: The First Avengers, respectively"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.8436,
+          40.7468
+        ],
+        "type": "Point"
+      },
+      "id": "neighborhood.33806"
+    }
+  ],
+  "type": "FeatureCollection"
+}
