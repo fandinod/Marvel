@@ -94,69 +94,7 @@ map.on('click', function(e) {
     </header>
       </section>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-      <div class="container">
-        <h2 class="text-center">THE MAP</h2>
-        <hr class="star-primary">
-   <div id='map' style='width: 100%; height: 900px;'></div>
-
-        <script>
-mapboxgl.accessToken = 'pk.eyJ1IjoiMHJlZGZlYXRoZXIiLCJhIjoiY2puZzVlYTFmNDZ6bjN3cW8xMHAwNG53NSJ9.hQc74nd7nsRsbm_2ZWB8sw';
-var map = new mapboxgl.Map({
-container: 'map',
-style: 'mapbox://styles/0redfeather/cjnq9xxfe0vcx2spl9snvquqi',
-center: [-73.943395, 40.740066],
-zoom: 10.2
-});
-
-//Attempting to Load popups onto the map
-
-map.on('click', function(e) {
-  var features = map.queryRenderedFeatures(e.point, {
-    layers: ['marvel-map-data'] // replace this with the name of the layer
-  });
-
-  if (!features.length) {
-    return;
-  }
-
-  //Possible code for the job
-  //var link = feature.properties.link
-  //var marker = L.marker([34.063298, -118.280126]) .addTo(map).bindPopup("<b>Blah blah Village</b><a href="http://www.cnn.com">Test</a>").openPopup();
-  //.setHTML('<h3><a href="' + feature.properties.link + '">' + feature.properties.Company + '</a></h3>)'
-  //<img src="pic_trulli.jpg" alt="Italian Trulli" style="width:500px;height:600px;">'>
-
-  var feature = features[0];
-
-  var popup = new mapboxgl.Popup({ offset: [0, -15] })
-    .setLngLat(feature.geometry.coordinates)
-    .setHTML('<h5>' + feature.properties.title + '</h6><p>' + feature.properties.description  + '</p>' + '<br>' + '<img src="' + feature.properties.img + '" alt="' + feature.properties.title + '" style="width:100px;height:150px;">' + '<p><a href="' + feature.properties.link + '">' + feature.properties.title + '</a></p>')
-    .setLngLat(feature.geometry.coordinates)
-    .addTo(map);
-
-});
-
-
-</script>
-
-
-
-<!-- About Section -->
-    <section class="success" id="about">
-      <div class="container">
-        <h2 class="text-center">About</h2>
-        <hr class="star-primary">
-          <div class="row">
-          <div>
-            <center><p>This project maps locations from the Marvel Cinematic, Television, and comic Universes in New York.</p>
-                <p>The Marvel Cinematic Universe features incredible amounts of action in New York, which begs the question: why does anyone live there? Your city has been destroyed by the Avengers, physically twisted by Dr. Strange, and the Staten Island Ferry is sawed in half during a fight between Spider-Man and Adrian Toomes (Vulture).</p></center><br>
-
-      </div>
-          </div>
-          </section>
-
-    <!-- Footer -->
+       <!-- Footer -->
     <footer class="text-center">
       <div class="footer-above">
         <div class="container">
